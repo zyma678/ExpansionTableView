@@ -21,6 +21,11 @@
 		2A55770A19B023DC00DA770D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5576EC19B023DB00DA770D /* UIKit.framework */; };
 		2A55771219B023DC00DA770D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A55771019B023DC00DA770D /* InfoPlist.strings */; };
 		2A55771419B023DC00DA770D /* ExpansionTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55771319B023DC00DA770D /* ExpansionTableViewTests.m */; };
+		2A55771F19B0244000DA770D /* ExpansionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55771E19B0244000DA770D /* ExpansionTableViewController.m */; };
+		2A55772519B053AB00DA770D /* ExpansionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55772419B053AB00DA770D /* ExpansionTableView.m */; };
+		2A86EB4E19B36BB700223EDA /* TitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A86EB4D19B36BB700223EDA /* TitleTableViewCell.m */; };
+		2A86EB5119B36BC900223EDA /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A86EB5019B36BC900223EDA /* DetailTableViewCell.m */; };
+		2A86EB5419B36C5100223EDA /* ExpensionCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A86EB5319B36C5100223EDA /* ExpensionCellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		2A55770F19B023DC00DA770D /* ExpansionTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpansionTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		2A55771119B023DC00DA770D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A55771319B023DC00DA770D /* ExpansionTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpansionTableViewTests.m; sourceTree = "<group>"; };
+		2A55771D19B0244000DA770D /* ExpansionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpansionTableViewController.h; sourceTree = "<group>"; };
+		2A55771E19B0244000DA770D /* ExpansionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpansionTableViewController.m; sourceTree = "<group>"; };
+		2A55772319B053AB00DA770D /* ExpansionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpansionTableView.h; sourceTree = "<group>"; };
+		2A55772419B053AB00DA770D /* ExpansionTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpansionTableView.m; sourceTree = "<group>"; };
+		2A86EB4C19B36BB700223EDA /* TitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleTableViewCell.h; sourceTree = "<group>"; };
+		2A86EB4D19B36BB700223EDA /* TitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleTableViewCell.m; sourceTree = "<group>"; };
+		2A86EB4F19B36BC900223EDA /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		2A86EB5019B36BC900223EDA /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		2A86EB5219B36C5100223EDA /* ExpensionCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensionCellModel.h; sourceTree = "<group>"; };
+		2A86EB5319B36C5100223EDA /* ExpensionCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensionCellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +132,16 @@
 				2A5576FA19B023DC00DA770D /* Main.storyboard */,
 				2A5576FD19B023DC00DA770D /* ViewController.h */,
 				2A5576FE19B023DC00DA770D /* ViewController.m */,
+				2A55772319B053AB00DA770D /* ExpansionTableView.h */,
+				2A55772419B053AB00DA770D /* ExpansionTableView.m */,
+				2A86EB4C19B36BB700223EDA /* TitleTableViewCell.h */,
+				2A86EB4D19B36BB700223EDA /* TitleTableViewCell.m */,
+				2A86EB4F19B36BC900223EDA /* DetailTableViewCell.h */,
+				2A86EB5019B36BC900223EDA /* DetailTableViewCell.m */,
+				2A86EB5219B36C5100223EDA /* ExpensionCellModel.h */,
+				2A86EB5319B36C5100223EDA /* ExpensionCellModel.m */,
+				2A55771D19B0244000DA770D /* ExpansionTableViewController.h */,
+				2A55771E19B0244000DA770D /* ExpansionTableViewController.m */,
 				2A55770019B023DC00DA770D /* Images.xcassets */,
 				2A5576EF19B023DB00DA770D /* Supporting Files */,
 			);
@@ -249,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A86EB4E19B36BB700223EDA /* TitleTableViewCell.m in Sources */,
+				2A86EB5419B36C5100223EDA /* ExpensionCellModel.m in Sources */,
+				2A55772519B053AB00DA770D /* ExpansionTableView.m in Sources */,
 				2A5576FF19B023DC00DA770D /* ViewController.m in Sources */,
 				2A5576F919B023DC00DA770D /* AppDelegate.m in Sources */,
 				2A5576F519B023DB00DA770D /* main.m in Sources */,
+				2A55771F19B0244000DA770D /* ExpansionTableViewController.m in Sources */,
+				2A86EB5119B36BC900223EDA /* DetailTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +486,7 @@
 				2A55771919B023DC00DA770D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A55771A19B023DC00DA770D /* Build configuration list for PBXNativeTarget "ExpansionTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +495,7 @@
 				2A55771C19B023DC00DA770D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "ExpansionTableViewController.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) ExpansionTableViewController *tableView;
 
 @end
 
